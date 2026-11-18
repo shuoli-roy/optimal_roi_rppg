@@ -100,7 +100,7 @@ For Linux, execute: **python3 (...).py**
 3. Generate ground truth heart rate values for UBFC-Phys dataset: **python "./main/main_gen_gtHR.py"**
 4. Evaluate the performance of different facial ROIs on selected datasets: **python "./main/main_evaluation.py"**
 ### Contact
-If you have any questions, please feel free to contact me through email (shuoli199909@outlook.com or shuoli199909@connect.hku.hk)!
+If you have any questions, please feel free to contact me through email (shuoli.roy@protonmail.com or shuoli_eee@connect.hku.hk)!
 ## Authors and acknowledgment
 This research project was supervised by Dr. Mohamed Elgendi and Prof. Dr. Carlo Menon. The code was developed by Shuo Li. Also thank to all of the BMHT members and providers of datasets for the continuous help!
 ## License - MIT License.
