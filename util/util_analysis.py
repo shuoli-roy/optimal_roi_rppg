@@ -607,7 +607,7 @@ def eval_pipe(sig_bvp, sig_bpm, gtTime, gtTrace, gtHR, Params):
             # CCC.
             CCC = np.abs(util_pyVHR.concordance_correlation_coefficient(bpm_true=gtTrace_crt, bpm_pred=sig_rppg_crt_slice))
             # RMSE.
-            RMSE = np.sqrt(metrics.mean_absolute_error(gtHR_crt, sig_bpm_crt_slice))
+            RMSE = np.sqrt(metrics.mean_squared_error(gtHR_crt, sig_bpm_crt_slice))
             # MAE.
             MAE = metrics.mean_absolute_error(gtHR_crt, sig_bpm_crt_slice)
             # MAPE.
